@@ -12,20 +12,24 @@
 	<dict>
 		<key>0E02A14D66BB11840E4575BDD519135EE003B74C</key>
 		<string>https://bitbucket.org/mai710/whiteelephant.git</string>
+		<key>56AF8B5D2EC9AD150B4C0C5AF2B052FED9A065C7</key>
+		<string>github.com:mai710/ParallaxVideoEffect.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>GithubRepos/VideoEffect/VideoEffect.xcodeproj</string>
+	<string>VideoEffect/VideoEffect.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>0E02A14D66BB11840E4575BDD519135EE003B74C</key>
-		<string>../../../..</string>
+		<string>../../../../..</string>
+		<key>56AF8B5D2EC9AD150B4C0C5AF2B052FED9A065C7</key>
+		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://bitbucket.org/mai710/whiteelephant.git</string>
+	<string>github.com:mai710/ParallaxVideoEffect.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>0E02A14D66BB11840E4575BDD519135EE003B74C</string>
+	<string>56AF8B5D2EC9AD150B4C0C5AF2B052FED9A065C7</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
@@ -34,7 +38,15 @@
 			<key>IDESourceControlWCCIdentifierKey</key>
 			<string>0E02A14D66BB11840E4575BDD519135EE003B74C</string>
 			<key>IDESourceControlWCCName</key>
-			<string>workspace</string>
+			<string>..</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>56AF8B5D2EC9AD150B4C0C5AF2B052FED9A065C7</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ParallaxVideoEffect</string>
 		</dict>
 	</array>
 </dict>
