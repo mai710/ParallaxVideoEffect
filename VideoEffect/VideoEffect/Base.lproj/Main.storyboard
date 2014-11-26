@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="dzg-yb-V6R">
+                                <rect key="frame" x="-50" y="-50" width="700" height="700"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="parallax-01" translatesAutoresizingMaskIntoConstraints="NO" id="uS4-zm-fmt">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="uS4-zm-fmt" secondAttribute="height" multiplier="1:1" id="Ny3-34-bxX"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="parallax-02" translatesAutoresizingMaskIntoConstraints="NO" id="bSX-cB-i8y">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="bSX-cB-i8y" secondAttribute="height" multiplier="1:1" id="ea4-3R-Wy2"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="parallax-03" translatesAutoresizingMaskIntoConstraints="NO" id="VSh-QQ-746">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="VSh-QQ-746" secondAttribute="height" multiplier="1:1" id="LGJ-GP-z16"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="uS4-zm-fmt" secondAttribute="centerX" id="3Id-cu-tk4"/>
+                            <constraint firstAttribute="width" secondItem="VSh-QQ-746" secondAttribute="width" id="3TR-wY-BGJ"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="VSh-QQ-746" secondAttribute="bottom" id="3U6-Om-l3r"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="uS4-zm-fmt" secondAttribute="bottom" id="3zh-Jd-X8E"/>
+                            <constraint firstAttribute="width" secondItem="bSX-cB-i8y" secondAttribute="width" id="7sZ-9t-SMj"/>
+                            <constraint firstAttribute="bottom" secondItem="dzg-yb-V6R" secondAttribute="bottom" constant="-50" id="ESt-hd-BCr"/>
+                            <constraint firstItem="dzg-yb-V6R" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="-50" id="FhE-za-8Ck"/>
+                            <constraint firstAttribute="centerX" secondItem="bSX-cB-i8y" secondAttribute="centerX" id="IeW-3w-PGU"/>
+                            <constraint firstItem="dzg-yb-V6R" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="-50" id="Kaz-Dw-ip3"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="bSX-cB-i8y" secondAttribute="bottom" id="d41-ax-FeT"/>
+                            <constraint firstAttribute="trailing" secondItem="dzg-yb-V6R" secondAttribute="trailing" constant="-50" id="osR-ax-CW0"/>
+                            <constraint firstAttribute="centerX" secondItem="VSh-QQ-746" secondAttribute="centerX" id="uTS-pv-B6j"/>
+                            <constraint firstAttribute="width" secondItem="uS4-zm-fmt" secondAttribute="width" id="y2K-0K-jz6"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="bg" destination="dzg-yb-V6R" id="fLY-bU-jyE"/>
+                        <outlet property="fg2" destination="bSX-cB-i8y" id="3a8-Is-su3"/>
+                        <outlet property="fg3" destination="VSh-QQ-746" id="Xuj-Wy-X3w"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="background" width="1000" height="855"/>
+        <image name="parallax-01" width="800" height="800"/>
+        <image name="parallax-02" width="800" height="800"/>
+        <image name="parallax-03" width="800" height="800"/>
+    </resources>
+</document>
